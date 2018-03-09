@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: vol-emptydir
+  name: vol-emptydir-pod
 spec:
   volumes:
   - name: html
