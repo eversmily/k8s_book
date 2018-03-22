@@ -12,9 +12,9 @@ spec:
   storageClassName: fast
   rbd:
     monitors:
-      - 172.16.0.56:6789
-      - 172.16.0.57:6789
-      - 172.16.0.58:6789
+      - 172.16.2.36:6789
+      - 172.16.2.37:6789
+      - 172.16.2.38:6789
     pool: kube
     image: pv-rbd-0001
     user: admin
