@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: lifecycle-demo-container
-    image: nginx:1.12-alpine
+    image: ikubernetes/myapp:v1
     lifecycle:
       postStart:
         exec:

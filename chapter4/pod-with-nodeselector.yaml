@@ -6,8 +6,8 @@ metadata:
     env: testing
 spec:
   containers:
-  - name: nginx-app
-    image: nginx:1.12-alpine
+  - name: myapp
+    image: ikubernetes/myapp:v1
     ports:     
     - name: http
       containerPort: 80
